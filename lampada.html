@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .container{
+            width: 300px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        header, main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        button{
+            width: 80px;
+            padding: 15px;
+            margin: 5px;
+        }
+    </style>
+    <title>Lâmpada</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>VANILLA JS</h1>
+        </header>
+        <main>
+            <div>
+                <img width="100%" src="imagens/desligada.jpg" alt="Lâmpada" id='lamp'>
+            </div>
+            <div>
+                <button id='on'>Ligar</button>
+                <button id='off'>Desligar</button>
+            </div>
+        </main>
+    </div>
+    <script src="./lampada.js"></script>
+</body>
+</html>
